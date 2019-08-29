@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+
+	>
+<channel>
+	<title>
+	Comments on: Death in Shona Culture	</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
+	<description>A detailed history of the Shona people of Zimbabwe</description>
+	<lastBuildDate>Sat, 20 Oct 2018 13:40:13 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+			<item>
+				<title>
+				By: innocent mudzitiri				</title>
+				<link>./../index.html#comment-11268</link>
+		<dc:creator><![CDATA[innocent mudzitiri]]></dc:creator>
+		<pubDate>Sat, 20 Oct 2018 13:40:13 +0000</pubDate>
+		<guid isPermaLink="false">http://localhost:8080/mashona.com/?p=13#comment-11268</guid>
+					<description><![CDATA[want to focuse on the study of ritual,
+ on how were they conducted and pivotal role they played in shona society.]]></description>
+		<content:encoded><![CDATA[<p>want to focuse on the study of ritual,<br />
+ on how were they conducted and pivotal role they played in shona society.</p>
+]]></content:encoded>
+						</item>
+			</channel>
+</rss>

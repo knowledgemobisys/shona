@@ -1,0 +1,39 @@
+.small-audio audio {width: 300px;margin-top: 15px;padding-bottom: 15px;}
+.email-image {vertical-align: middle;border: none !important;margin: 0 !important;padding: 0 !important;}
+.ssba img {width: 30px !important;height: auto !important;}
+#subscribe-blog-blog_subscription-2 {padding: 0 5px 0 5px !important;}
+.striped table {border-collapse: collapse;}
+.striped td {padding: 3px;}
+.striped tbody tr:nth-child(odd) {background-color: #dfdfdf;}
+.wp-caption.alignleft {margin-right: 20px;}
+.mobile-theme .tippy_tip {left: -4px !important;width: 80% !important;}
+.mobile-theme .tippy_body {width: 90% !important;}
+@media (prefers-color-scheme: dark) {:root {--dark-text-color: hsl(210,50%,72%);--dark-bg-color: hsl(210,8%,25%);--medium-bg-color: #4b5559;--link-color: #e4a2a2;}
+	.commentCite img, .post .entry img {filter: grayscale(.4);}
+	#mainCol, #mainCol .rightShade {background: var(--medium-bg-color);}
+	#mainCol .title, #subCol h2, #footer, .tags a {color: var(--dark-text-color) !important;background-color: var(--dark-bg-color) !important;}
+	body {color: hsl(210,10%,81%);background-color: black;}
+	.author span {color: #9caeb7;}
+	.post h1 a {color: var(--dark-text-color);}
+	.post p a, .cat-post-item a {color: var(--link-color);}
+	.post h3, .tags strong {color: #c1c0c0;}
+	#content, #container {background-color: hsl(210,8%,37%);}
+	#content img {background: #3e3b3b;border: solid 1px #8c8787;}
+	.tags a {border: solid 1px #8c8787;}
+	.tags, .commentText {border: solid 1px #8c8787;background: transparent;}
+	.commentText p {color: #afa6a6;}
+	.commentLink, .commentText span {background: transparent;}
+	#footer p {color: #97b5c7;}
+	#photo img, .mejs-poster.mejs-layer {filter: grayscale(.8);}
+	.sd-content li a {filter: grayscale(1);}
+	#comments a, .commentCite .commentmetadata {color: var(--dark-text-color);}
+	.commentCite cite {color: hsl(212,5%,65%);}
+	.contact-submit button, .contact-form input, .contact-form textarea, #searchform input, #subscribe-email input, #subscribe-submit input[type="submit"] {color: hsl(210,10%,81%);border: solid 2px hsl(210,7%,61%);background-color: black;}
+	.post p.date {border: solid var(--dark-text-color) 1px;background: var(--dark-bg-color);}
+	.post p.date span {color: var(--dark-text-color);background: var(--medium-bg-color);}
+	p#logo a {color: var(--dark-text-color) !important;}
+	#nav li a {color: var(--dark-text-color);}
+	blockquote {border-left: 3px solid var(--dark-text-color);}
+	.wp-caption, blockquote {background: #3e3a3a;}
+	.tippy_body {background-color: #252323 !important;}
+	.striped tbody tr:nth-child(odd) {background-color: #312e2e;}}

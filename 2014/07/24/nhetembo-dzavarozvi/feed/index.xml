@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+
+	>
+<channel>
+	<title>
+	Comments on: VaRozvi	</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
+	<description>A detailed history of the Shona people of Zimbabwe</description>
+	<lastBuildDate>Mon, 08 May 2017 11:09:08 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+			<item>
+				<title>
+				By: vengai mandava				</title>
+				<link>./../index.html#comment-637</link>
+		<dc:creator><![CDATA[vengai mandava]]></dc:creator>
+		<pubDate>Mon, 08 May 2017 11:09:08 +0000</pubDate>
+		<guid isPermaLink="false">./../../../../../index.html?p=226#comment-637</guid>
+					<description><![CDATA[girls are the ones to praise men as men do provide for them as the tradition was.]]></description>
+		<content:encoded><![CDATA[<p>girls are the ones to praise men as men do provide for them as the tradition was.</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: twuta				</title>
+				<link>./../index.html#comment-349</link>
+		<dc:creator><![CDATA[twuta]]></dc:creator>
+		<pubDate>Mon, 21 Dec 2015 12:41:08 +0000</pubDate>
+		<guid isPermaLink="false">./../../../../../index.html?p=226#comment-349</guid>
+					<description><![CDATA[What about for the girls? How do we praise them?]]></description>
+		<content:encoded><![CDATA[<p>What about for the girls? How do we praise them?</p>
+]]></content:encoded>
+						</item>
+			</channel>
+</rss>

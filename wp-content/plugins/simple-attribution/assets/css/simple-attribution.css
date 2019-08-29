@@ -1,0 +1,9 @@
+span.simple-attribution img {
+    vertical-align: middle;
+    display: inline;
+}
+
+.simple-attribution i {
+    vertical-align: middle;
+    padding-right: 5px;
+}
