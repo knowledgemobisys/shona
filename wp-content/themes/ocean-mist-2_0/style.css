@@ -54,7 +54,9 @@ Tags: blue, custom header, custom colour scheme, elastic width, two columns, wid
 	width: 90%!important;
 }
 
+.tags,
 a.rss,
+.olderEntries,
 #searchform,
 .comment-respond,
 img[alt='css.php'],
