@@ -13,17 +13,17 @@ Tags: blue, custom header, custom colour scheme, elastic width, two columns, wid
 .small-audio audio {
 	width: 300px;
 	margin-top: 15px;
-	padding-bottom:15px;
+	padding-bottom: 15px;
 }
 
 .email-image {
 	vertical-align: middle;
 	border: none!important;
-	margin:0!important;
-	padding:0!important;
+	margin: 0!important;
+	padding: 0!important;
 }
 
-.ssba img { 
+.ssba img {
 	width: 30px!important;
 	height: auto!important;
 }
@@ -35,36 +35,124 @@ Tags: blue, custom header, custom colour scheme, elastic width, two columns, wid
 .striped table {
 	border-collapse: collapse;
 }
+
 .striped td {
 	padding: 3px;
 }
+
 .striped tbody tr:nth-child(odd) {
-   background-color: #dfdfdf;
+	background-color: #dfdfdf;
 }
 
 .wp-caption.alignleft {
-    margin-right: 20px;
+	margin-right: 20px;
 }
 
-.mobile-theme .tippy_tip {
-	left: -4px!important;
-    width: 80%!important;
-}
-.mobile-theme .tippy_body {
-	width: 90%!important;
-}
-
-.tags,
-a.rss,
-.contact-form.commentsblock,
-.olderEntries,
-#searchform,
-img[alt='css.php'],
-.jp-relatedposts,
-span.next,
-span.prev,
-.sharedaddy.sd-sharing-enabled,
-.akismet_comment_form_privacy_notice,
-.widget_blog_subscription {
+.tags, a.rss, span.next, span.prev, #searchform, .olderEntries, .jp-relatedposts, img[alt='css.php'], .widget_blog_subscription, .contact-form.commentsblock, .sharedaddy.sd-sharing-enabled, .akismet_comment_form_privacy_notice {
 	display: none!important;
 }
+
+
+@media screen and (min-device-width: 320px) and (max-device-height: 840px) and (orientation: portrait) {
+	*, *:before, *:after {
+		box-sizing: border-box;
+	  }
+	  
+	* {
+		padding: 0;
+		margin: 0;
+	}
+
+	::-webkit-scrollbar {
+		width: 0px; 
+		background: transparent;
+	  }
+
+	body {
+		font: 14px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: hsl(210, 10%, 81%)!important;
+		background: black!important;
+		width: 100vw;
+		height: 100vh;
+		padding: 0;
+	}
+	#mainCol {
+		background: hsl(210, 8%, 25%);
+	}
+	.post, 
+	#center, 
+	#header, 
+	#mainCol, 
+	#container, 
+	#content, 
+	#photo, 
+	#photo img, 
+	#footer,
+	#mainCol p.title {
+		width: 100%;
+		margin: 0;
+	}
+	.post {
+		padding-left: 10px;
+	}
+	.post .entry p img {
+		width: 100%;
+		height: 100%;
+		margin: 0!important;
+		padding: 0 !important;
+	}
+	#header {
+		padding: 1em 0 2em 1em;
+	}
+
+	#mainCol .title {
+		padding: 0.95em 0 1em;
+	}
+
+	.rightCorner,
+	.leftCorner {
+		display: none;
+	}
+	/* 
+	.post .entry p {
+		margin-bottom: 50px;
+	}
+
+	#header #logo a {
+		font-size: 50px;
+	}
+	#header #strapline {
+		font-size: 27px;
+		margin-top: 10px;
+	} 
+	.tippy_tip {
+		left: -4px!important;
+		width: 80%!important;
+	}
+	.tippy_body {
+		width: 90%!important;
+	}
+	.author span {
+		color: #8ea4af;
+	}
+
+	.entry .mejs-container.mejs-audio {
+		width: 97% !important;
+		height: 100px !important;
+	}
+
+	.mejs-inner {
+		display: flex !important;
+		justify-content: center !important;
+		align-items: center !important;
+	}
+
+	.mejs-controls {
+		align-items: center !important;;
+		height: 100%!important;
+	}
+
+	.mejs-time-slider {
+		height: 20px !important;
+	} */
+} 
