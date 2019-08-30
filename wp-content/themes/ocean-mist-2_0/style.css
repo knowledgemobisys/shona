@@ -78,7 +78,19 @@ Tags: blue, custom header, custom colour scheme, elastic width, two columns, wid
 	}
 	#mainCol {
 		background: hsl(210, 8%, 25%);
+		padding-top: 10px;
 	}
+
+	#mainCol .post h1,
+	#mainCol h1 a[rel="bookmark"] {
+		font-size: 20px;
+		color: hsl(210, 10%, 81%)!important;
+	}
+
+	#mainCol .post .small-audio {
+		margin-bottom: 15px;
+	}
+
 	.post, 
 	#center, 
 	#header, 
@@ -93,7 +105,7 @@ Tags: blue, custom header, custom colour scheme, elastic width, two columns, wid
 		margin: 0;
 	}
 	.post {
-		padding-left: 10px;
+		padding: 0 10px 0 10px;
 	}
 	.post .entry p img {
 		width: 100%;
@@ -101,58 +113,128 @@ Tags: blue, custom header, custom colour scheme, elastic width, two columns, wid
 		margin: 0!important;
 		padding: 0 !important;
 	}
+	.post .entry blockquote {
+		background: #5d5d5d;
+	}
+
 	#header {
 		padding: 1em 0 2em 1em;
 	}
 
-	#mainCol .title {
-		padding: 0.95em 0 1em;
-	}
-
 	.rightCorner,
-	.leftCorner {
+	.leftCorner,
+	#mainCol .title,
+	#mainCol .rightShade,
+	#subCol > ul > li:nth-child(1) {
 		display: none;
-	}
-	/* 
-	.post .entry p {
-		margin-bottom: 50px;
 	}
 
 	#header #logo a {
-		font-size: 50px;
+		font-size: 21px;
 	}
+
 	#header #strapline {
-		font-size: 27px;
-		margin-top: 10px;
+		font-size: 12px;
+		margin-top: 12px;
 	} 
+
+	#subCol {
+		width: 100%;
+		background: #585e65;
+	}
+
+	#subCol .widgettitle {
+		background: #0e2331;
+		color: #47a3e0;
+	}
+
+	#subCol .cat-post-title {
+		color: #d2d8dc;
+	}
+
+	#footer,
+	#footer p {
+		top: 0;
+		color: #47a3e0;
+		background: #0e2331;
+	}
+
+	.entry p a {
+		color: #47a3e0;
+		font-weight: 800;
+	}
+
 	.tippy_tip {
-		left: -4px!important;
 		width: 80%!important;
 	}
+
 	.tippy_body {
-		width: 90%!important;
+		color: #776c6c;
+		width: 100%!important;
 	}
+
 	.author span {
 		color: #8ea4af;
 	}
 
-	.entry .mejs-container.mejs-audio {
-		width: 97% !important;
-		height: 100px !important;
+	.author a {
+		color: #eababa;
 	}
 
-	.mejs-inner {
-		display: flex !important;
-		justify-content: center !important;
-		align-items: center !important;
+	#nav {
+		margin-left: 0;
+		left: auto;
+		right: 0;
 	}
 
-	.mejs-controls {
-		align-items: center !important;;
-		height: 100%!important;
+	#nav li a {
+		background: rgba(113, 102, 102, 0.5) !important;
 	}
 
-	.mejs-time-slider {
-		height: 20px !important;
-	} */
-} 
+	.tippy_closelink {
+		display: none;
+	}
+
+	#container {
+		overflow-x: hidden;
+	}
+
+	.post .entry p img[alt="proudly zim"] {
+		width: 150px!important;
+		height: 150px!important;
+		border-radius: 50%;
+		shape-outside: circle();
+		margin-right: 15px!important;
+	}
+
+	.post .entry p span em {
+		color: #f7b0a7;
+	}
+
+	.wp-caption.aligncenter,
+	.wp-caption.alignleft {
+		margin-right: 8px;
+		text-align: center;
+		background: #5d5d5d;
+		width: 100% !important;
+	}
+	.wp-caption.aligncenter img,
+	.wp-caption.alignleft img {
+		margin: 0!important;
+		width: 100% !important;
+		padding: 0!important;
+	 }
+
+	 .wp-caption-text {
+		color: #dcc2c2;
+		background: hsl(210, 8%, 25%);
+	}
+
+	table.striped {
+		width: 100%;
+	}
+
+	table.striped tbody tr:nth-child(odd) {
+		background-color: #585858;
+	}
+}
