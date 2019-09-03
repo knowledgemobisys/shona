@@ -41,107 +41,10 @@ name="jetpack_subscriptions_widget"
 var WPGroHo = {"my_hash":""};
 /*  */</script> <script type='text/javascript' src='https://c0.wp.com/p/jetpack/7.6/modules/wpgroho.js'></script><script type='text/javascript' src='https://c0.wp.com/p/jetpack/7.6/_inc/build/lazy-images/js/lazy-images.min.js'></script><script type='text/javascript' src='https://c0.wp.com/c/5.2.2/wp-includes/js/wp-embed.min.js'></script><script defer type='text/javascript' src='./wp-content/uploads/cache/fvm/1567086124/out/footer-1f5004d0.min.js'></script><script type='text/javascript'>/*  */
 var sharing_js_options = {"lang":"en","counts":"1","is_stats_active":"1"};
-/*  */</script> <script type='text/javascript' src='https://c0.wp.com/p/jetpack/7.6/_inc/build/sharedaddy/sharing.min.js'></script> <script type='text/javascript'>var windowOpen;
-			jQuery( document.body ).on( 'click', 'a.share-facebook', function() {
-				// If there's another sharing window open, close it.
-				if ( 'undefined' !== typeof windowOpen ) {
-					windowOpen.close();
-				}
-				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
-				return false;
-			});
-var windowOpen;
-			jQuery( document.body ).on( 'click', 'a.share-twitter', function() {
-				// If there's another sharing window open, close it.
-				if ( 'undefined' !== typeof windowOpen ) {
-					windowOpen.close();
-				}
-				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
-				return false;
-			});</script><script type="text/javascript" id="slb_context">/*  */if ( !!window.jQuery ) {(function($){$(document).ready(function(){if ( !!window.SLB ) { {$.extend(SLB, {"context":["public","user_guest"]});} }})})(jQuery);}/*  */</script> <!--[if IE]> <script type="text/javascript">if ( 0 === window.location.hash.indexOf( '#comment-' ) ) {
+/*  */</script> <script type='text/javascript' src='https://c0.wp.com/p/jetpack/7.6/_inc/build/sharedaddy/sharing.min.js'></script> <script type="text/javascript" id="slb_context">/*  */if ( !!window.jQuery ) {(function($){$(document).ready(function(){if ( !!window.SLB ) { {$.extend(SLB, {"context":["public","user_guest"]});} }})})(jQuery);}/*  */</script> <!--[if IE]> <script type="text/javascript">if ( 0 === window.location.hash.indexOf( '#comment-' ) ) {
 				// window.location.reload() doesn't respect the Hash in IE
 				window.location.hash = window.location.hash;
-			}</script> <![endif]--> <script type="text/javascript">/*<![CDATA[*/(function () {
-				var comm_par_el = document.getElementById( 'comment_parent' ),
-					comm_par = ( comm_par_el && comm_par_el.value ) ? comm_par_el.value : '',
-					frame = document.getElementById( 'jetpack_remote_comment' ),
-					tellFrameNewParent;
-
-				tellFrameNewParent = function () {
-					if ( comm_par ) {
-						frame.src = "https://kchikuse.github.io/shona?blogid=106979722&postid=571&comment_registration=0&require_name_email=1&stc_enabled=1&stb_enabled=1&show_avatars=1&avatar_default=mystery&greeting=Leave+a+Reply&greeting_reply=Leave+a+Reply+to+%25s&color_scheme=light&lang=en_US&jetpack_version=7.6&show_cookie_consent=10&has_cookie_consent=0&token_key=%3Bnormal%3B&sig=685871da497b2cecd11c74e1ed87034a83702126#parent=.%2F" + '&replytocom=' + parseInt( comm_par, 10 ).toString();
-					} else {
-						frame.src = "https://kchikuse.github.io/shona?blogid=106979722&postid=571&comment_registration=0&require_name_email=1&stc_enabled=1&stb_enabled=1&show_avatars=1&avatar_default=mystery&greeting=Leave+a+Reply&greeting_reply=Leave+a+Reply+to+%25s&color_scheme=light&lang=en_US&jetpack_version=7.6&show_cookie_consent=10&has_cookie_consent=0&token_key=%3Bnormal%3B&sig=685871da497b2cecd11c74e1ed87034a83702126#parent=.%2F";
-					}
-				};
-
-				
-				if ( 'undefined' !== typeof addComment ) {
-					addComment._Jetpack_moveForm = addComment.moveForm;
-
-					addComment.moveForm = function ( commId, parentId, respondId, postId ) {
-						var returnValue = addComment._Jetpack_moveForm( commId, parentId, respondId, postId ),
-							cancelClick, cancel;
-
-						if ( false === returnValue ) {
-							cancel = document.getElementById( 'cancel-comment-reply-link' );
-							cancelClick = cancel.onclick;
-							cancel.onclick = function () {
-								var cancelReturn = cancelClick.call( this );
-								if ( false !== cancelReturn ) {
-									return cancelReturn;
-								}
-
-								if ( ! comm_par ) {
-									return cancelReturn;
-								}
-
-								comm_par = 0;
-
-								tellFrameNewParent();
-
-								return cancelReturn;
-							};
-						}
-
-						if ( comm_par == parentId ) {
-							return returnValue;
-						}
-
-						comm_par = parentId;
-
-						tellFrameNewParent();
-
-						return returnValue;
-					};
-				}
-
-				
-				// Do the post message bit after the dom has loaded.
-				document.addEventListener( 'DOMContentLoaded', function () {
-					var iframe_url = "http:\/\/jetpack.wordpress.com";
-					if ( window.postMessage ) {
-						if ( document.addEventListener ) {
-							window.addEventListener( 'message', function ( event ) {
-								var origin = event.origin.replace( /^http:\/\//i, 'https://' );
-								if ( iframe_url.replace( /^http:\/\//i, 'https://' ) !== origin ) {
-									return;
-								}
-								jQuery( frame ).height( event.data );
-							});
-						} else if ( document.attachEvent ) {
-							window.attachEvent( 'message', function ( event ) {
-								var origin = event.origin.replace( /^http:\/\//i, 'https://' );
-								if ( iframe_url.replace( /^http:\/\//i, 'https://' ) !== origin ) {
-									return;
-								}
-								jQuery( frame ).height( event.data );
-							});
-						}
-					}
-				})
-
-			})();/*]]>*/</script> <script type='text/javascript' src='https://stats.wp.com/e-201935.js' async='async' defer='defer'></script> <script type='text/javascript'>_stq = window._stq || [];
+			}</script> <![endif]-->  <script type='text/javascript' src='https://stats.wp.com/e-201935.js' async='async' defer='defer'></script> <script type='text/javascript'>_stq = window._stq || [];
 	_stq.push([ 'view', {v:'ext',j:'1:7.6',blog:'106979722',post:'0',tz:'2',srv:'shona.website'} ]);
 	_stq.push([ 'clickTrackerInit', '106979722', '0' ]);</script> <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
