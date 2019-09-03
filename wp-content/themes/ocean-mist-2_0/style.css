@@ -52,6 +52,9 @@ Tags: blue, custom header, custom colour scheme, elastic width, two columns, wid
 	display: none!important;
 }
 
+#content img[alt="proudly zim"] {
+    border: none;
+}
 
 @media screen and (min-device-width: 320px) and (max-device-height: 840px) and (orientation: portrait) {
 	*, *:before, *:after {
