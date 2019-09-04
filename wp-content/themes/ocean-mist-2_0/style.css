@@ -56,6 +56,20 @@ Tags: blue, custom header, custom colour scheme, elastic width, two columns, wid
     border: none;
 }
 
+#disqus_thread {
+	position: relative;
+}
+
+#disqus_thread:after {
+	content: "";
+	display: block;
+	height: 55px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	background:white;
+}
+
 @media screen and (min-device-width: 320px) and (max-device-height: 840px) and (orientation: portrait) {
 	*, *:before, *:after {
 		box-sizing: border-box;
