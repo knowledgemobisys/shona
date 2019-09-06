@@ -56,7 +56,7 @@ Tags: blue, custom header, custom colour scheme, elastic width, two columns, wid
     border: none;
 }
 
-#disqus_thread {
+/* #disqus_thread {
 	position: relative;
 }
 
@@ -68,7 +68,31 @@ Tags: blue, custom header, custom colour scheme, elastic width, two columns, wid
 	position: absolute;
 	bottom: 0px;
 	background:white;
-}
+} */
+
+#disqus_trigger {
+	display: block;
+	margin: 2em 0;
+	border: 0;
+	padding: 1.5em;
+	border-radius: 5px;
+	width: 100%;
+	text-align: center;
+	background-color: #eee;
+	color: inherit;
+	font: inherit;
+	cursor: pointer;
+	font-weight: bold;
+	transition: background-color .25s, color .25s ease-in-out;
+  }
+  
+  #disqus_trigger:hover,
+  #disqus_trigger:active,
+  #disqus_trigger:focus {
+	background-color: #fff;
+	color: black;
+  }
+  
 
 @media screen and (min-device-width: 320px) and (max-device-height: 840px) and (orientation: portrait) {
 	*, *:before, *:after {
