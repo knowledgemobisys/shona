@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<channel>
+
+<title>Nhaka yevaShona</title>
+<link>https://kchikuse.github.io/shona</link>
+<language>en</language>
+<copyright>&#xA9; 2014 K. Chikuse</copyright>
+<itunes:subtitle>A detailed history and culture of the Shona people of Zimbabwe</itunes:subtitle>
+<itunes:author>K. Chikuse</itunes:author>
+<description>A detailed history and culture of the Shona people of Zimbabwe</description>
+<itunes:explicit>clean</itunes:explicit>
+<itunes:owner>
+<itunes:name>K. Chikuse</itunes:name>
+<itunes:email>kchikuse@gmail.com</itunes:email>
+</itunes:owner>
+<itunes:image href="https://kchikuse.github.io/shona/wp-content/uploads/podcast/cover.jpg" />
+<itunes:category text="Society &amp; Culture">
+<itunes:category text="History" />
+</itunes:category>
+
+<item>
+	<title>The Shona People</title>
+	<itunes:author>K. Chikuse</itunes:author>
+	<itunes:subtitle>The Shona People</itunes:subtitle>
+	<itunes:summary>The Shona are a cluster of peoples who have lived for about 2,000 years in Zimbabwe</itunes:summary>
+	<itunes:image href="https://kchikuse.github.io/shona/wp-content/uploads/2013/10/shona-dancers.jpg" />
+	<enclosure url="https://kchikuse.github.io/shona/wp-content/uploads/podcast/The_Shona_People.mp3" length="9490432" type="audio/mpeg" />
+	<guid>https://kchikuse.github.io/shona/wp-content/uploads/podcast/The_Shona_People.mp3</guid>
+	<pubDate>Fri, 14 Feb 2014 19:00:00 GMT</pubDate>
+	<itunes:duration>9:53</itunes:duration>
+</item>
+
+<item>
+	<title>Chaminuka</title>
+	<itunes:author>K. Chikuse</itunes:author>
+	<itunes:subtitle>The life of Chaminuka</itunes:subtitle>
+	<itunes:summary>A famous seer from Chitungwiza, a man of unusual gifts, with power over animals</itunes:summary>
+	<enclosure url="https://kchikuse.github.io/shona/wp-content/uploads/podcast/Chaminuka.mp3" length="3850240 " type="audio/mpeg" />
+	<guid>https://kchikuse.github.io/shona/wp-content/uploads/podcast/Chaminuka.mp3</guid>
+	<pubDate>Sun, 16 Feb 2014 10:00:00 GMT</pubDate>
+	<itunes:duration>4:00</itunes:duration>
+</item>
+
+<item>
+	<title>The Rozvi Empire</title>
+	<itunes:author>K. Chikuse</itunes:author>
+	<itunes:subtitle>The Rozvi Empire</itunes:subtitle>
+	<itunes:summary>The Rozvi empire was established on the Zimbabwean Plateau in the 1600s</itunes:summary>
+	<itunes:image href="https://kchikuse.github.io/shona/wp-content/uploads/2013/10/great-ruins.jpg" />
+	<enclosure url="https://kchikuse.github.io/shona/wp-content/uploads/podcast/The_Rozvi_Empire.mp3" length="3846144" type="audio/mpeg" />
+	<guid>https://kchikuse.github.io/shona/wp-content/uploads/podcast/The_Rozvi_Empire.mp3</guid>
+	<pubDate>Sat, 15 Feb 2014 13:00:00 GMT</pubDate>
+	<itunes:duration>4:00</itunes:duration>
+</item>
+
+<item>
+	<title>Gumboreshumba</title>
+	<itunes:author>K. Chikuse</itunes:author>
+	<itunes:subtitle>Gumboreshumba</itunes:subtitle>
+	<itunes:summary>A spirit medium instrumental in organizing the first nationwide resistance to colonial rule</itunes:summary>
+	<itunes:image href="https://kchikuse.github.io/shona/wp-content/uploads/2007/06/MbuyaNehanda.jpg" />
+	<enclosure url="https://kchikuse.github.io/shona/wp-content/uploads/podcast/Gumboreshumba.mp3" length="8445952" type="audio/mpeg" />
+	<guid>https://kchikuse.github.io/shona/wp-content/uploads/podcast/Gumboreshumba.mp3</guid>
+	<pubDate>Sun, 16 Feb 2014 10:00:00 GMT</pubDate>
+	<itunes:duration>7:49</itunes:duration>
+</item>
+
+</channel>
+</rss>
